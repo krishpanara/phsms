@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Security | PHSMS</title>
+    <meta name="description" content="How PHSMS keeps school data separate and safe: per-school separation, role and record-level access control, audit trails, protected sensitive records and approval controls." />
+    <meta property="og:title" content="Security | PHSMS" />
+    <meta property="og:description" content="How PHSMS keeps school data separate and safe: per-school separation, role and record-level access control, audit trails, protected sensitive records and approval controls." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#1f5141" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f5141'/%3E%3Ctext x='16' y='21' font-size='13' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'%3EPH%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Instrument+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="logo" href="index.html" aria-label="PHSMS home">
+          <span class="logo-mark" aria-hidden="true">PH</span>PHSMS
+        </a>
+        <nav class="nav" id="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="features.html">Features</a></li><li><a href="solutions.html">Solutions</a></li><li><a href="roles.html">Roles</a></li><li><a href="security.html" aria-current="page">Security</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="faq.html">FAQ</a></li>
+            <li class="only-mobile"><a href="https://hanaplatform.com/" target="_blank" rel="noopener noreferrer">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <a class="btn btn-sm btn-outline" href="https://hanaplatform.com/" target="_blank" rel="noopener noreferrer">Contact</a>
+          <a class="btn btn-sm btn-primary" href="https://youtu.be/gC9gq7oushU" target="_blank" rel="noopener noreferrer">Watch the demo</a>
+        </div>
+        <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span></button>
+      </div>
+    </header>
+
+    <main id="main">
+
+      <section class="page-hero">
+        <div class="wrap">
+          <ol class="crumbs"><li><a href="index.html">Home</a></li><li aria-current="page">Security</li></ol>
+          <span class="eyebrow">Trust &amp; security</span>
+          <h1>Built so each school’s data stays its own.</h1>
+          <p class="lead">Schools hold some of the most private information there is. PHSMS is designed so that it is separated, access is checked every time, and what happens to it can be seen.</p>
+          <nav class="jump" aria-label="On this page"><a href="#tenancy">Separation</a><a href="#access">Access control</a><a href="#audit">Audit trail</a><a href="#sensitive">Sensitive records</a><a href="#accounts">Accounts &amp; sessions</a><a href="#files">Files &amp; exports</a><a href="#controls">Approvals</a></nav>
+        </div>
+      </section>
+
+      <section class="s" id="tenancy">
+        <div class="wrap feature">
+          <div>
+            <span class="eyebrow">Separation</span>
+            <h2>Each school’s data stays its own.</h2>
+            <p class="lead">PHSMS is built for many schools on one platform, and every record belongs to exactly one school.</p>
+          </div>
+          <div><div class="panel"><p class="panel-label">In practice</p><ul class="bullets"><li>Every record is tied to its school, and requests are scoped to the signed-in user’s school</li><li>One school can never read or change another school’s information</li><li>One email address belongs to one school account</li></ul></div></div>
+        </div>
+      </section>
+      <section class="s band" id="access">
+        <div class="wrap feature flip">
+          <div>
+            <span class="eyebrow">Access control</span>
+            <h2>Checked on every request, and every record.</h2>
+            <p class="lead">The server decides what you can do. Hiding something in the screen is never the only protection.</p>
+          </div>
+          <div><div class="panel"><p class="panel-label">In practice</p><ul class="bullets"><li>Role-based access on every endpoint, denied unless explicitly allowed</li><li>A second check that you may access this specific student, invoice or grade</li><li>A read-only auditor role that cannot change records</li><li>Parents see only their own children, and only released information</li></ul></div></div>
+        </div>
+      </section>
+      <section class="s" id="audit">
+        <div class="wrap feature">
+          <div>
+            <span class="eyebrow">Audit trail</span>
+            <h2>See who did what, and when.</h2>
+            <p class="lead">Changes are recorded so questions about them can be answered later.</p>
+          </div>
+          <div><div class="panel"><p class="panel-label">In practice</p><ul class="bullets"><li>Changes to records are written to an audit log with the person and the time</li><li>A school audit log viewer for owners and auditors, and a platform audit log for the platform team</li><li>Attendance corrections, grade reopening and payment reversals all require a reason</li><li>Data exports and report exports are audit-logged</li></ul></div></div>
+        </div>
+      </section>
+      <section class="s band" id="sensitive">
+        <div class="wrap feature flip">
+          <div>
+            <span class="eyebrow">Sensitive records</span>
+            <h2>Extra care for the most private information.</h2>
+            <p class="lead">Health, guidance and safeguarding records are the most sensitive a school holds.</p>
+          </div>
+          <div><div class="panel"><p class="panel-label">In practice</p><ul class="bullets"><li>Kept apart from the everyday student record</li><li>Left out of exports, dashboards and audit-log views</li><li>Every access is written to a sensitive access log, with a review page</li><li>Parents see outcome notices only, never staff notes</li></ul></div></div>
+        </div>
+      </section>
+      <section class="s" id="accounts">
+        <div class="wrap feature">
+          <div>
+            <span class="eyebrow">Accounts &amp; sessions</span>
+            <h2>Safe by default.</h2>
+            <p class="lead">The basics, done carefully.</p>
+          </div>
+          <div><div class="panel"><p class="panel-label">In practice</p><ul class="bullets"><li>Passwords are stored hashed, never in readable form</li><li>Sessions use secure, httpOnly cookies that scripts on the page cannot read</li><li>Sign-in and public endpoints are rate limited</li><li>Staff accounts are invited by email, and can be deactivated at any time</li></ul></div></div>
+        </div>
+      </section>
+      <section class="s band" id="files">
+        <div class="wrap feature flip">
+          <div>
+            <span class="eyebrow">Files &amp; exports</span>
+            <h2>Uploads and exports, handled with care.</h2>
+            <p class="lead">Documents and downloads are where private information most often leaves a system.</p>
+          </div>
+          <div><div class="panel"><p class="panel-label">In practice</p><ul class="bullets"><li>Uploads are checked for file type and size</li><li>Documents open through short-lived secure links, not public web addresses</li><li>CSV exports are made safe to open in spreadsheet programs, and each export is capped in size</li><li>Every export is permission-checked and audit-logged</li><li>Auditors can read reports but cannot download exports</li><li>Student documents and staff documents are stored for separate purposes</li></ul></div></div>
+        </div>
+      </section>
+      <section class="s" id="controls">
+        <div class="wrap feature">
+          <div>
+            <span class="eyebrow">Approvals</span>
+            <h2>Two sets of eyes where it matters.</h2>
+            <p class="lead">Money and pay need a second person.</p>
+          </div>
+          <div><div class="panel"><p class="panel-label">In practice</p><ul class="bullets"><li>Payroll runs are approved by someone other than the person who prepared them</li><li>Discounts and scholarships need an approver and a stated reason</li><li>Inventory write-offs need approval</li><li>Payments are never deleted, only reversed with a reason, so the history stays complete</li></ul></div></div>
+        </div>
+      </section>
+      <section class="s">
+        <div class="wrap">
+          <div class="notice">
+            <h3>Good to know: not available yet</h3>
+            <ul class="bullets">
+              <li>Two-factor sign-in and single sign-on are planned for a later release.</li>
+              <li>If your school has specific security or data-privacy questions, <a href="https://hanaplatform.com/" target="_blank" rel="noopener noreferrer">contact us</a> and we will answer them directly.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="s" aria-labelledby="cta-h">
+        <div class="wrap">
+          <div class="cta-block">
+            <h2 id="cta-h">See PHSMS with your school’s workflow.</h2>
+            <p>Watch the demo, or tell us about your school and we will walk you through the modules that matter most to you.</p>
+            <div class="cta-row">
+              <a class="btn btn-primary btn-lg" href="https://youtu.be/gC9gq7oushU" target="_blank" rel="noopener noreferrer">Watch the demo</a>
+              <a class="btn btn-lg" href="https://hanaplatform.com/" target="_blank" rel="noopener noreferrer">Contact us</a>
+            </div>
+            <p class="cta-small">Pricing depends on your school. Contact us for pricing.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">PH</span>PHSMS</a>
+            <p>School management for private K-12 schools in the Philippines.</p>
+          </div>
+          <div>
+            <h4>Modules</h4>
+            <ul><li><a href="modules/admissions-records.html">Admissions &amp; records</a></li><li><a href="modules/academics-grading.html">Academics &amp; grading</a></li><li><a href="modules/finance.html">Finance &amp; cashiering</a></li><li><a href="modules/communication-portals.html">Communication &amp; portals</a></li><li><a href="modules/wellbeing-operations.html">Wellbeing &amp; operations</a></li><li><a href="modules/hr-payroll.html">HR &amp; payroll</a></li></ul>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="features.html">All features</a></li>
+              <li><a href="roles.html">Roles</a></li>
+              <li><a href="security.html">Security</a></li>
+              <li><a href="how-it-works.html">How it works</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="solutions.html">A day with PHSMS</a></li>
+              <li><a href="why-phsms.html">Why PHSMS</a></li>
+              <li><a href="reports.html">Reports</a></li>
+              <li><a href="availability.html">What’s available</a></li>
+              <li><a href="glossary.html">Glossary</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Get in touch</h4>
+            <ul>
+              <li><a href="https://youtu.be/gC9gq7oushU" target="_blank" rel="noopener noreferrer">Watch the demo</a></li>
+              <li><a href="https://hanaplatform.com/" target="_blank" rel="noopener noreferrer">Contact us</a></li>
+              <li><a href="https://hanaplatform.com/" target="_blank" rel="noopener noreferrer">Ask about pricing</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 PHSMS. Philippine K-12 School Management System.</span>
+          <a href="#main">Back to top</a>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/site.js"></script>
+  </body>
+</html>
